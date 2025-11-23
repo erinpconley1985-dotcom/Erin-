@@ -1,0 +1,281 @@
+
+
+/* Color Theme Swatches in Hex */
+.The-Florida-Aquarium-1-hex { color: #04C4D9; }
+.The-Florida-Aquarium-2-hex { color: #027373; }
+.The-Florida-Aquarium-3-hex { color: #04D9D9; }
+.The-Florida-Aquarium-4-hex { color: #05F2DB; }
+.The-Florida-Aquarium-5-hex { color: #02735E; }
+
+body {
+    background-color: #9ac1bd;
+}
+
+#pg1container, #pg2container, #pg3container {
+    width: 80%;
+    background-color:#98c2be; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+/* Nav Styles - Global  */
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav ul li {
+    float: left;
+    background-color: #027373 ;
+    color: #eee5dd;
+    width: 33.3%;
+    text-align: center;
+    line-height: 70px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #F4F0F2;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #0b9bab;
+    color:#e4e1de;
+}
+
+.active {
+    background-color:#2a3e41;
+    color: #F2E3D5 ;
+}
+
+
+
+
+
+/* Header Styles  */
+
+#pg1container header{
+    clear: both;
+    width: 100%;
+    height: 650px;
+    background-image: url(images/book2.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#pg1container header h1{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 100px;
+    top: 50px;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+}
+
+#pg2container header{
+    clear: both;
+    width: 100%;
+    height: 400px;
+    background-image: url(images/book14.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#pg2container img {
+  width: 50%;   
+  height: auto;
+  display: block;
+  margin:  auto;
+  object-fit: contain;  
+}
+
+#pg2container header h1{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 100px;
+    top: 50px;
+    font-family: "Fredericka the Great", serif;
+    color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+
+  #pg3container header{
+    clear: both;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background-image: url(images/book15.jpg);
+    background-size: cover;
+    position: relative;
+   
+}
+
+
+
+#pg3container header h1{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 30px;
+    top: 30px;
+    font-family: "Fredericka the Great", serif;
+    color: #ebe4b8;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+  
+
+/* Section Styles */
+
+#pg1container section, #pg2container section,  #pg3container section {
+    width:100%;
+
+}
+
+#pg1container section:nth-of-type(1) h2, #pg2container section:nth-of-type(1) h2, #pg3container section:nth-of-type(1) h2{
+    text-align: center;
+}
+
+#pg1container section:nth-of-type(1) p, #pg2container section:nth-of-type(1) p, #pg3container section:nth-of-type(1) p{
+    padding: 10px;
+    
+
+}
+
+
+
+
+.city-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;              
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.city-gallery article {
+  flex: 1 1 30%;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #027373;
+  padding: 15px;             
+  border: 2px groove #b5b1b0;    
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+}
+
+.city-gallery img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.city-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch; 
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.city-gallery article {
+  flex: 1 1 30%;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #027373;
+  padding: 15px;
+  border: 2px groove #F28F79;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;              
+  flex-direction: column;     
+  justify-content: space-between; 
+}
+
+
+
+
+/* Footer Style */
+
+
+
+.site-footer {
+  background-color: #0f8176;      
+  color: #F2E3D5;                
+  text-align: center;         
+  padding: 20px 0;             
+  margin-top: 40px;          
+}
+
+.site-footer a {
+  color: #F2E3D5; 
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: #02735E; 
+  text-decoration: underline; 
+}
+
+.site-footer {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+
+
+.social-icons {
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+   margin-top: 20px;
+  }
+
+  .social-icons a{
+   text-decoration: none;
+   font-size: 24px;
+   color: white;
+   background-color: #333;
+   padding: 10px;
+   border-radius: 50%;
+   transition: 0.3s;
+  }
+
+  .social-icons a:hover {
+   transform: scale(1.2);
+
+  }
+
+  .social-icons a.facebook { background-color: #3b5998;}
+  .social-icons a.instagram { background-color:#E1306C;}
+  .social-icons a.twitter { background-color: #000000;}
+
+
+
+
+
+
